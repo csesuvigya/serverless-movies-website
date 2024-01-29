@@ -33,7 +33,8 @@ This is a Serverless simple web-based application that allows users to search fo
 - Go to properties tab and setup 'Static website hosting' (can be found at the bottom of the properties tab)
 - Go to 'permissions' tab and update the 'Bucket policy' with the following code
 
-> {
+```
+{
     "Version": "2012-10-17",
     "Statement": [
         {
@@ -45,6 +46,7 @@ This is a Serverless simple web-based application that allows users to search fo
         }
     ]
 }
+```
 
 ## Create a Dynamo DB table
 - Go to AWS console and search for 'dynamodb' service.
